@@ -1,0 +1,40 @@
+.planetslist{
+  width: 1000px;
+}
+
+.planet{
+  vertical-align: top;
+}
+
+.vehiclesList{
+  background: #e5e5e5;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+  margin-top: 16px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.vehiclesList p{
+  margin-bottom: 10px;
+}
+
+.vehicle{
+  position: relative;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.vehicle:hover{
+  background: white;
+}
+
+.vehicle span{
+  font-size: 12px;
+}
+
+.vehicle img{
+  width: 15px;
+  height: 15px;
+}

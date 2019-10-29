@@ -1,0 +1,7 @@
+.planetslist{
+  width: 800px;
+}
+
+.planet{
+  cursor: pointer;
+}

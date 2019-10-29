@@ -1,22 +1,71 @@
-.App {
-  text-align: center;
+body{
+    background: #252121;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo{
+    width: 50px;
+    height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo1{
+    width: 100px;
+    height: 100px;
 }
 
-.App-link {
-  color: #09d3ac;
+h2,p{
+    color: white;
+}
+
+.planetslist{
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.planet{
+    position: relative;
+    display: inline-block;
+    margin:16px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #211a1a;
+}
+
+.planet h3, .planet p{
+    color: black;
+    margin: 0px;
+}
+  
+.planet h3{
+    margin: 4px;
+}
+
+.planet p{
+    font-size: 12px;
+    margin-top: 8px;
+}
+  
+.planet img{
+    width: 64px;
+    height: 64px;
+}
+
+.selected{
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(40, 115, 91, 0.80);
+}
+
+.selected p{
+    margin-top: 40%;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
 }
