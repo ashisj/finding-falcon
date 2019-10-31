@@ -18,7 +18,7 @@ h2,p{
 
 .planetslist{
     width: 1000px;
-    margin: 60px auto;
+    margin: 40px auto;
 }
 
 .planet{
@@ -69,3 +69,12 @@ h2,p{
     font-weight: bold;
     color: white;
 }
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    margin-top: 20px;
+}
+
